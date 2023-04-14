@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #00b4db, #0083b0);
+    height: 80px;
+    padding: 0 2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    animation: color-change 8s ease-in-out infinite;
+    
+  }
+  
+  @keyframes color-change {
+    0% {
+      background: linear-gradient(45deg, #73cadd, #0083b0);
+    }
+    25% {
+      background: linear-gradient(45deg, #FFC107, #FF9800);
+    }
+    50% {
+      background: linear-gradient(45deg, #8c95c8, #2196F3);
+    }
+    75% {
+      background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    }
+    100% {
+      background: linear-gradient(45deg, #707380, #16191c);
+    }
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #FFC107;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .logo:hover {
+    color: #FFC107;
+  }
+  
+  .navbar-welcome {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-right: 2rem;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-welcome {
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    animation: welcome-animation 0.5s ease-in-out;
+  }
+  
+  @keyframes welcome-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  
+  .navbar-btn {
+    display: inline-block;
+    background-color: white;
+    color: #0083b0;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .navbar-btn:hover {
+    background-color: #0083b0;
+    color: white;
+  }
+  

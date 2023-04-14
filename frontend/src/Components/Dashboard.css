@@ -1,0 +1,161 @@
+.navebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 5px !important;
+  text-decoration: none;
+  max-width:40%!important;
+}
+
+.navebar span {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none !important;
+}
+#middleSpan{
+  padding-left: 10px;
+}
+
+.navebar span:hover {
+  color: #007bff;
+}
+
+.navebar span svg {
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.navebar span:last-of-type {
+  margin-right: 0;
+}
+
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  min-height: 100vh;
+  background: linear-gradient(rgba(106, 118, 125, 0.8), rgba(2, 64, 102, 0.8)), url('https://source.unsplash.com/random') center/cover fixed no-repeat;
+  
+
+}
+
+
+.search{
+  width: 20% !important;
+  padding-left:15px  !important;
+  font-size:medium!important;
+  margin-left: 60% !important;
+}
+#edit{
+  color: green;
+  padding: 5px;
+  margin-right: 50px;
+  border-radius: 5px;
+  background-color:rgb(203, 236, 191);
+}
+#action{
+  align-content: c;
+}
+#delete{
+  color: red;
+  background-color:rgb(224, 203, 203);
+  border-radius: 5px;
+}
+
+
+.dashboard-search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.dashboard-search-container h1 {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.dashboard-search-container input {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-search-container input:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.dashboard-table-container {
+  width: 80%;
+}
+
+.dashboard-table-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+table {
+  margin-top: 0% ;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+}
+
+td span {
+  display: flex;
+  align-items: center;
+}
+
+td p {
+  color: red;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+td p:hover {
+  color: darkred;
+}
+
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+  transition: 0.2s;
+}
+.action{
+  margin-left: 50px !important;
+}
+.actionhead{
+  margin-left: 50px !important;
+}

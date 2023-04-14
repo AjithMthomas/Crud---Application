@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1200px; /* Increase max-width to fit 3 cards per row */
+  }
+  
+  .card-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: calc(33.33% - 10px); /* Divide width by 3 and subtract margin */
+  }
+  
+  .card-item img {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .card-item p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  @media (max-width: 991px) {
+    .card-item {
+      width: calc(50% - 10px); /* Change width to fit 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card-item {
+      width: 100%; /* Change width to fit 1 card per row */
+    }
+  }
+  
